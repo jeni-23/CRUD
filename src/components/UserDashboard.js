@@ -42,8 +42,8 @@ const handleUpdate=async()=>{
     <>
    <div className='container'>
    <h1 className='text-center'>User Dashboard</h1>
-   <a className='btn btn-primary w-40 ' to='/user/add'>Add Users</a>
-     <h1>Tables</h1>
+   
+     
      <table class="table">
   <thead class=" table-dark text-white">
     <tr>
@@ -65,8 +65,8 @@ const handleUpdate=async()=>{
     <td>{user.email}</td>
     <td>{user.mobile}</td>
     <td>{user.password}</td>
-    <td style={{display:"flex",justifyContent:"space-between"}}>
-    <button className='btn btn-primary '><i class="fa fa-eye" aria-hidden="true"></i></button>
+    <td style={{display:"flex",justifyContent:"space-around"}}>
+    
     <button className='btn btn-info 'data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={()=>setUpdateData({
       username:user.username,
       email:user.email,

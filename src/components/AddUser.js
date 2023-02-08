@@ -23,13 +23,13 @@ const handleSubmit=async(e)=>{
 
 }
 	return(
-      <div className='container'>
-      	<div className="row text-center">
+      <div className='container main'>
+      	<div className="row">
       		<div className="col">
       			<h1>Add User Form</h1>
       		</div>
       		<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">UserName</label>
+  <label for="exampleFormControlInput1" class="form-label ">UserName</label>
   <input type="text" class="form-control" id="exampleFormControlInput1"value={formData.username} name='username' onChange={(e)=>handleChange(e)}/>
 </div>
       		
@@ -40,7 +40,7 @@ const handleSubmit=async(e)=>{
 <div class="mb-3">
 
   <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value={formData.email} onChange={(e)=>handleChange(e)} name='email'/>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value={formData.email} onChange={(e)=>handleChange(e)} name='email' required/>
 </div>
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Password</label>
