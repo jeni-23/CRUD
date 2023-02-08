@@ -1,0 +1,63 @@
+{
+  "posts": [
+    {
+      "username": "AshaAro",
+      "email": "asha@gmail.com",
+      "mobile": "123456789",
+      "password": "nothig",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "username": "Hensha",
+      "email": "jeni@gmail.com",
+      "mobile": "9845982318",
+      "password": "nwiudhw8wu"
+    },
+    {
+      "username": "HenishaAro",
+      "email": "jeni@gmail.com",
+      "mobile": "9845982318",
+      "password": "vxvh8r773",
+      "id": 3
+    },
+    {
+      "username": "JuliCharles",
+      "email": "jeni@gmail.com",
+      "mobile": "9845982318",
+      "password": "ncd8ofni",
+      "id": 4
+    },
+    {
+      "username": "jdflei",
+      "mobile": "9485479390007",
+      "email": "arorose@gmail.com",
+      "password": "12345678",
+      "id": 5
+    },
+    {
+      "username": "karina",
+      "mobile": "243255666",
+      "email": "gffjgv@gmail.com",
+      "password": "dhfndifcdc",
+      "id": 6
+    },
+    {
+      "username": "jaanu",
+      "mobile": "6758478567",
+      "email": "jjaan@gmail.com",
+      "password": "4325678",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
